@@ -23,8 +23,8 @@
 
 .location-location {
     font-size: 40px;
-    margin-right: 10px;
-    font-weight: 200;
+    margin-right: 0px;
+    font-weight: 300;
 }
 
 .location-mapsUrl {
@@ -38,23 +38,19 @@
     max-width: 480px;
     position: absolute;
     z-index: 1;
-    top: 80px;
+    top: 100px;
     left: 310px;
     display: inline-block;
 }
 
 .location-title {
     margin-top: 30px;
-    font-size: 40px;
-    font-weight: 600;
 }
 
 .location-date {
-    margin-top: -30px;
-    font-size: 20px;
-    font-weight: 500;
+    margin-top: -20px;
 }
 
 .location-desc {
-    margin-top: -15px;
+    margin-top: -20px;
 }

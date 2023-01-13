@@ -9,7 +9,7 @@ export default function Location(props) {
                 <div className='location-block1'>
                     <img src={props.mapsIcon} alt="mapsIcon" className='location-mapsIcon'/>
                     <h3 className='location-location'>{props.location}</h3>
-                    <a href={props.mapsUrl} className='location-mapsUrl'>View on Google Maps</a>
+                    <a href={props.mapsUrl} target='_blank' className='location-mapsUrl'>View on Google Maps</a>
                 </div>
                 <div className='location-block2'>
                     <h1 className='location-title'>{props.title}</h1>
