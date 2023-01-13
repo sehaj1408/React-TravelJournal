@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #F55A5A;
+    height: 55px;
+    width: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar > img {
+    width: 30px;
+    padding-right: 0px;
+}
+
+.navbar > h3 {
+    color: white;
+    font-weight: 300;
+}
