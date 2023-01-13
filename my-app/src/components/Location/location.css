@@ -3,10 +3,6 @@
     position: relative;
 }
 
-.location-body {
-    
-}
-
 .location-image {
     width: 250px;
     border-radius: 15px;
@@ -27,8 +23,8 @@
 
 .location-location {
     font-size: 40px;
-    margin-right: 0px;
-    font-weight: 300;
+    margin-right: 10px;
+    font-weight: 200;
 }
 
 .location-mapsUrl {
@@ -42,19 +38,23 @@
     max-width: 480px;
     position: absolute;
     z-index: 1;
-    top: 100px;
+    top: 80px;
     left: 310px;
     display: inline-block;
 }
 
 .location-title {
     margin-top: 30px;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 .location-date {
-    margin-top: -20px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .location-desc {
-    margin-top: -20px;
+    margin-top: -15px;
 }

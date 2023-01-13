@@ -39,7 +39,7 @@ export default [
         googleMapsUrl: "https://www.google.com/maps/place/London+Bridge/@51.5079144,-0.0922123,17z/data=!3m1!4b1!4m5!3m4!1s0x4876035159bb13c5:0xa61e28267c3563ac!8m2!3d51.5078788!4d-0.0877321",
         startDate: "July, 2021",
         endDate: "",
-        description: "London Bridge is a bridge in London, England over the River Thames, between the City of London and Southwark. It is between Cannon Street Railway Bridge and Tower Bridge; it also forms the western end of the Pool of London. London's original bridge made this one of the most famous bridge emplacements in the world.",
+        description: "London Bridge is a bridge in London, England over the River Thames, between the City of London and Southwark. It is between Cannon Street Railway Bridge and Tower Bridge; it also forms the western end of the Pool of London.",
         imageUrl: require("./components/images/england.jpg"),
         mapsIcon: require("./components/images/mapsIcon.png")
     }
