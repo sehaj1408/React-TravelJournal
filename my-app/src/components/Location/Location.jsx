@@ -4,13 +4,19 @@ import './location.css'
 export default function Location(props) {
     return (
         <div className='location'>
-            <img src={props.imageUrl} alt="" />
-            <img src={props.mapsIcon} alt="" />
-            <h3>{props.location}</h3>
-            <a href={props.mapsUrl}>View on Google Maps</a>
-            <h1>{props.title}</h1>
-            <h2>{`${props.startDate} - ${props.endDate}`}</h2>
-            <p>{props.desc}</p>
+            <div className='location-body'>
+                <img src={props.imageUrl} alt="imageUrl" className='location-image'/>
+                <div className='location-block1'>
+                    <img src={props.mapsIcon} alt="mapsIcon" className='location-mapsIcon'/>
+                    <h3 className='location-location'>{props.location}</h3>
+                    <a href={props.mapsUrl} className='location-mapsUrl'>View on Google Maps</a>
+                </div>
+                <div className='location-block2'>
+                    <h1 className='location-title'>{props.title}</h1>
+                    <h2 className='location-date'>{`${props.startDate}`}</h2>
+                    <p className='location-desc'>{props.desc}</p>
+                </div>
+            </div>
         </div>
     )
 }

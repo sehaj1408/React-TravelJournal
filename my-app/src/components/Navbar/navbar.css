@@ -1,7 +1,7 @@
 .navbar {
     background-color: #F55A5A;
     height: 55px;
-    width: 550px;
+    width: 800px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -15,5 +15,6 @@
 
 .navbar > h3 {
     color: white;
+    font-size: 25px;
     font-weight: 300;
 }

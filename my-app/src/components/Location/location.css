@@ -1,5 +1,60 @@
 .location {
-    background-color: lightgray;
-    width: 550px;
-    height: 649px;
+    background-color: white;
+    position: relative;
+}
+
+.location-body {
+    
+}
+
+.location-image {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.location-block1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+}
+
+.location-mapsIcon {
+    width: 38px;
+    margin-right: -10px;
+}
+
+.location-location {
+    font-size: 40px;
+    margin-right: 0px;
+    font-weight: 300;
+}
+
+.location-mapsUrl {
+    position: relative;
+    top: 7px;
+    font-size: 20px;
+    color: gray;
+}
+
+.location-block2 {
+    max-width: 480px;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 310px;
+    display: inline-block;
+}
+
+.location-title {
+    margin-top: 30px;
+}
+
+.location-date {
+    margin-top: -20px;
+}
+
+.location-desc {
+    margin-top: -20px;
 }

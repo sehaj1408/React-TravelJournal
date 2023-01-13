@@ -5,7 +5,9 @@ import './index.css'
 
 function Page() {
     return (
-        <App />
+        <div className='page'>
+            <App />
+        </div>
     )
 }
 
